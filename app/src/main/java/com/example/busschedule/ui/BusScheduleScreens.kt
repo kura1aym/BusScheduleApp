@@ -166,7 +166,7 @@ fun BusScheduleScreen(
     contentPadding: PaddingValues = PaddingValues(0.dp),
     stopName: String? = null,
     onScheduleClick: ((String) -> Unit)? = null,
-) {
+){
     val stopNameText = if (stopName == null) {
         stringResource(R.string.stop_name)
     } else {
